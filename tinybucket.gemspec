@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'activesupport',      ['~> 4.1']
-  spec.add_runtime_dependency 'faraday',            ['= 0.9.0']
-  spec.add_runtime_dependency 'faraday_middleware', ['= 0.9.1']
+  spec.add_runtime_dependency 'faraday',            ['~> 0.9']
+  spec.add_runtime_dependency 'faraday_middleware', ['~> 0.9']
   spec.add_runtime_dependency 'simple_oauth',       ['= 0.2.0']
   spec.add_runtime_dependency 'activemodel',        ['~> 4.1']
 
